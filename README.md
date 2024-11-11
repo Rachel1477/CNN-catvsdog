@@ -5,10 +5,12 @@
 ## 1.安装GPU加速工具链
 在开始一切工作前，请先检查你是否为电脑安装了GPU加速工具链，包括（nvidia 驱动，CUDA toolkit，cuDNN）
 这一步是必要的，除非你能忍受超过半个小时的训练时间
-## 2.环境依赖
-请确保你已经安装了minconda,如果没有，请看这篇文档
 
-请在你的IDE终端中进入你创建的conda环境（关于如何创建conda环境，请看这一篇），并且运行以下指令（不知道IDE的看上次的文档）
+关于如何安装，请看[这篇文档](https://github.com/Rachel1477/study_ml2?tab=readme-ov-file) part2. GPU加速工具链
+## 2.环境依赖
+请确保你已经安装了minconda,如果没有，请看[这篇文档](https://github.com/Rachel1477/study_ml-/tree/master) 2.安装python的IDE
+
+请在你的IDE终端中进入你创建的conda环境（关于如何创建conda环境，请看[这篇文档](https://github.com/Rachel1477/study_ml-/tree/master) 2.安装python的IDE），并且运行以下指令
 ```
 pip install -r requirements.txt
 ```
